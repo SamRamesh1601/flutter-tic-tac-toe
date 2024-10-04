@@ -27,7 +27,7 @@ class _GameScreenState extends State<GameScreen> {
   int seconds = maxSeconds;
   Timer? timer;
 
-  static var customFontWhite = GoogleFonts.coiny(
+  static var customFontWhite = GoogleFonts.lato(
     textStyle: TextStyle(
       color: Colors.white,
       letterSpacing: 3,
@@ -124,7 +124,7 @@ class _GameScreenState extends State<GameScreen> {
                         child: Center(
                           child: Text(
                             displayXO[index],
-                            style: GoogleFonts.coiny(
+                            style: GoogleFonts.lato(
                                 textStyle: TextStyle(
                               fontSize: 64,
                               color: matchedIndexes.contains(index)
